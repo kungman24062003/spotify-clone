@@ -10,16 +10,13 @@
 ## 🚀 Cách cài đặt
 
 ```bash
-# 1. Clone repo
-git clone [https://github.com/datmaithanh/music-chat-app.git](https://github.com/datmaithanh/Spotify-Linux.git)
-cd music-chat-app
 
-# 2. Cài backend
+#  Cài backend
 cd backend
 pip install -r requirements.txt
 python manage.py runserver
 
-# 3. Cài frontend
+#  Cài frontend
 cd ../frontend
 npm install
 npm run dev
